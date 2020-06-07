@@ -1,24 +1,65 @@
 [{
-        "question": "This is the 1st question?",
-        "choice1": "Question 1 - choice 1",
-        "choice2": "Question 1 - choice 2",
-        "choice3": "Question 1 - choice 3",
-        "choice4": "Question 1 - choice 4",
+        "question": "What benifit would you get from half cover?",
+        "choice1": "Get a +5 bonus to your AC",
+        "choice2": "Get +2 bonus to your AC",
+        "choice3": "Get +5 bonus to your AC and Dex saves",
+        "choice4": "Get +2 bonus to your AC and Dex saves",
+        "answer": 4
+    },
+    {
+        "question": "How fast can you move through difficult terrain?",
+        "choice1": "1/4 your movment",
+        "choice2": "1/2 your movment",
+        "choice3": "No penalty",
+        "choice4": "1/3 your movment",
+        "answer": 2
+    },
+    {
+        "question": "Standing up from prone how much of your speed? ",
+        "choice1": "20%",
+        "choice2": "100%",
+        "choice3": "50%",
+        "choice4": "75%",
+        "answer": 3
+    },
+    {
+        "question": "How fast can you crawl?",
+        "choice1": "1/2 your movment",
+        "choice2": "1/3 your movment",
+        "choice3": "1/4 your movment",
+        "choice4": "No penalty",
         "answer": 1
-    }, {
-        "question": "This is the 2nd question?",
-        "choice1": "Question 2 - choice 1",
-        "choice2": "Question 2 - choice 2",
-        "choice3": "Question 2 - choice 3",
-        "choice4": "Question 2 - choice 4",
+    },
+    {
+        "question": "When can you move through a hostile creature's space?",
+        "choice1": "You cant",
+        "choice2": "if the creature is at least three sizes smaller",
+        "choice3": "Always",
+        "choice4": "if the creature is at least two sizes larger or smaller than you",
+        "answer": 4
+    },
+    {
+        "question": "What size is a \"Huge\" creature",
+        "choice1": "15 by 15 ft.",
+        "choice2": "20 by 20 ft",
+        "choice3": "30 by 30 ft",
+        "choice4": "10 by 10 ft.",
         "answer": 1
-    }, {
-        "question": "This is the 3rd question?",
-        "choice1": "Question 3 - choice 1",
-        "choice2": "Question 3 - choice 2",
-        "choice3": "Question 3 - choice 3",
-        "choice4": "Question 3 - choice 4",
-        "answer": 1
+    },
+    {
+        "question": "What size is a \"Tiny\" creature",
+        "choice1": "5 by 5 ft.",
+        "choice2": "1 by 1 ft.",
+        "choice3": "10 by 10 ft.",
+        "choice4": "2 1/2 by 2 1/2 ft.",
+        "answer": 4
+    },
+    {
+        "question": "What size is a \"Large\" creature",
+        "choice1": "15 by 15 ft.",
+        "choice2": "10 by 10 ft.",
+        "choice3": "20 by 20 ft",
+        "choice4": "5 by 5 ft.",
+        "answer": 2
     }
-
 ]
