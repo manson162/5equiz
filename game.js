@@ -8,30 +8,15 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
-let questions = [{
-        question: "This is the 1st question?",
-        choice1: "Question 1 - choice 1",
-        choice2: "Question 1 - choice 2",
-        choice3: "Question 1 - choice 3",
-        choice4: "Question 1 - choice 4",
-        answer: 1
-    }, {
-        question: "This is the 2nd question?",
-        choice1: "Question 2 - choice 1",
-        choice2: "Question 2 - choice 2",
-        choice3: "Question 2 - choice 3",
-        choice4: "Question 2 - choice 4",
-        answer: 1
-    }, {
-        question: "This is the 3rd question?",
-        choice1: "Question 3 - choice 1",
-        choice2: "Question 3 - choice 2",
-        choice3: "Question 3 - choice 3",
-        choice4: "Question 3 - choice 4",
-        answer: 1
-    }
-
-];
+let questions = [];
+fetch("questions.json").then(res => {
+    console.log(res);
+    return res.json();
+}).then(loadedQuestions => {
+    console.log(loadedQuestions);
+    questions = loadedQuestions;
+    startGame();
+});
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
@@ -98,5 +83,3 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 }
-
-startGame();
